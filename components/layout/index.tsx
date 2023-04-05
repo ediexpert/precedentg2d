@@ -41,11 +41,11 @@ export default function Layout({
             <Image
               src="/logo.png"
               alt="Precedent logo"
-              width="30"
-              height="30"
+              width="60"
+              height="60"
               className="mr-2 rounded-sm"
             ></Image>
-            <p>Precedent</p>
+            {/* <p>Precedent</p> */}
           </Link>
           <div>
             <AnimatePresence>
@@ -69,15 +69,7 @@ export default function Layout({
       </main>
       <div className="absolute w-full border-t border-gray-200 bg-white py-5 text-center">
         <p className="text-gray-500">
-          A free template by{" "}
-          <a
-            className="font-medium text-gray-800 underline transition-colors"
-            href="https://twitter.com/steventey"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Steven Tey
-          </a>
+          &copy; 2020 - {new Date().getFullYear()} GOING2DUBAI.COM
         </p>
       </div>
     </>
